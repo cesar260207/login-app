@@ -7,7 +7,7 @@ function verificarSesion() {
 
   if (!usuario) {
     // Si no hay sesión → volver al login
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   } else {
     // Mostrar nombre
     document.getElementById("nombreUsuario").textContent = usuario.nombre;
