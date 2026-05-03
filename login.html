@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 300px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #4facfe;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #3a8edb;
+    }
+
+    #error {
+      color: red;
+      margin-top: 10px;
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Iniciar Sesión</h2>
+
+    <form id="formLogin">
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Contraseña">
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <p id="error"></p>
+
+    <a href="registro.html">Crear cuenta</a>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
