@@ -59,7 +59,7 @@ async function registrarUsuario(nombre, email, password) {
 
     alert("Usuario registrado correctamente");
 
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 
   } catch (error) {
     mostrarError("Error inesperado");

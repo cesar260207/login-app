@@ -18,7 +18,7 @@ function cerrarSesion() {
   localStorage.removeItem("usuario");
   localStorage.removeItem("token");
 
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
 
 // Ejecutar al cargar
